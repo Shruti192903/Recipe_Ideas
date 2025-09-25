@@ -4,7 +4,6 @@ import SimpleSearch from './components/SimpleSearch'
 import RecipeGrid from './components/RecipeGrid'
 import RecipeModal from './components/RecipeModal'
 import LoadingSpinner from './components/LoadingSpinner'
-import ShoppingListModal from './components/ShoppingListModal'
 import ThemeToggle from './components/ThemeToggle'
 import { fetchRecipeByIngredient, fetchRecipeDetails } from './services/api'
 
@@ -14,7 +13,7 @@ function App() {
   const [error, setError] = useState(null)
   const [selectedRecipe, setSelectedRecipe] = useState(null)
 
-  const [showShoppingList, setShowShoppingList] = useState(false)
+
   const [showFavorites, setShowFavorites] = useState(false)
   const [searchHistory, setSearchHistory] = useState([])
   const [favorites, setFavorites] = useState(() => {
@@ -681,13 +680,7 @@ function App() {
                 Your Favorite Recipes
               </h3>
               
-              <button
-                onClick={() => setShowShoppingList(true)}
-                className="flex items-center space-x-2 px-4 py-2 bg-recipe-orange text-white rounded-lg hover:bg-recipe-orange/90 transition-colors shadow-md"
-              >
-                <ChefHat className="h-4 w-4" />
-                <span>Generate Shopping List</span>
-              </button>
+
             </div>
             <RecipeGrid 
               recipes={favorites}
@@ -728,13 +721,7 @@ function App() {
         />
       )}
 
-      {/* Shopping List Modal */}
-      {showShoppingList && (
-        <ShoppingListModal
-          recipes={favorites}
-          onClose={() => setShowShoppingList(false)}
-        />
-      )}
+
 
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-8 mt-16">

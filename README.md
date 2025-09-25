@@ -78,11 +78,12 @@ A modern, interactive web application that helps busy professionals discover ama
 
 ## 🌐 Live Demo
 
-**Deploy on these platforms:**
+✨ **Deployed on Vercel** - Lightning-fast performance and global CDN!
+
+**Other deployment platforms:**
 - [CodeSandbox](https://codesandbox.io) - Perfect for quick demos
 - [StackBlitz](https://stackblitz.com) - Great for sharing
 - [Netlify](https://netlify.com) - Easy deployment
-- [Vercel](https://vercel.com) - Optimized for React
 
 ### Quick Deploy to CodeSandbox:
 1. Go to [CodeSandbox](https://codesandbox.io)
@@ -176,18 +177,31 @@ This app uses **TheMealDB API** - a free recipe database:
 
 ## 🚀 Deployment Guide
 
-### CodeSandbox (Recommended for Demo)
+### Vercel (Recommended - Currently Deployed! ✨)
+1. Connect your GitHub repository to [vercel.com](https://vercel.com)
+2. Import your `Recipe_Ideas` repository
+3. Vercel auto-detects Vite configuration
+4. Deploy with zero configuration!
+5. Get automatic deployments on every Git push
+
+**Benefits of Vercel:**
+- ⚡ Global CDN for lightning-fast loading
+- 🔄 Automatic deployments from GitHub
+- 📊 Performance analytics
+- 🌍 Edge functions for optimal performance
+
+### CodeSandbox (Quick Demo)
 1. Visit [codesandbox.io](https://codesandbox.io)
 2. Click "Create Sandbox" → "Upload files"
 3. Drag your project folder
 4. Share the generated URL
 
-### StackBlitz
+### StackBlitz (Instant Development)
 1. Visit [stackblitz.com](https://stackblitz.com)
 2. Click "Create project" → "Upload files"
 3. Your app will be live instantly!
 
-### Netlify (Production)
+### Netlify (Alternative Production)
 1. Build the project: `npm run build`
 2. Drag the `dist` folder to [netlify.com/drop](https://netlify.com/drop)
 3. Get your live URL
