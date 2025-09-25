@@ -1,8 +1,11 @@
 {
   "name": "recipe-ideas",
-  "private": true,
+  "private": false,
   "version": "1.0.0",
   "type": "module",
+  "description": "Modern recipe discovery app for busy professionals - search by ingredients, save favorites, and find perfect meals in minutes!",
+  "keywords": ["react", "recipes", "cooking", "food", "ingredients", "vite", "tailwind"],
+  "homepage": "https://github.com/Shruti192903/Recipe_Ideas",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
