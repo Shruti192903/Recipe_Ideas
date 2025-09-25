@@ -21,7 +21,7 @@ A modern, interactive web application that helps busy professionals discover ama
 - Weekend projects (1+ hour)
 - Perfect for Taylor's busy schedule
 
-### 💖 **Personal Recipe Collection**
+### 🧑🏻‍🍳 **Personal Recipe Collection**
 - Save favorite recipes for later
 - Persistent storage using localStorage
 - Quick access to your saved recipes
@@ -239,7 +239,5 @@ This project is open source and available under the [MIT License](LICENSE).
 - **Vite Team** - For the amazing build tool
 
 ---
-
-**Built with ❤️ for Taylor and all the busy professionals who want to cook great meals at home!**
 
 *Ready to start cooking? Run `npm run dev` and discover your next favorite recipe!* 🍽️
