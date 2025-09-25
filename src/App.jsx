@@ -3,7 +3,6 @@ import { ChefHat, Search, Clock, Users, Filter, Star, ExternalLink, Heart, Utens
 import SimpleSearch from './components/SimpleSearch'
 import RecipeGrid from './components/RecipeGrid'
 import RecipeModal from './components/RecipeModal'
-import FilterPanel from './components/FilterPanel'
 import LoadingSpinner from './components/LoadingSpinner'
 import ShoppingListModal from './components/ShoppingListModal'
 import ThemeToggle from './components/ThemeToggle'
@@ -14,7 +13,7 @@ function App() {
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState(null)
   const [selectedRecipe, setSelectedRecipe] = useState(null)
-  const [showFilters, setShowFilters] = useState(false)
+
   const [showShoppingList, setShowShoppingList] = useState(false)
   const [showFavorites, setShowFavorites] = useState(false)
   const [searchHistory, setSearchHistory] = useState([])
@@ -563,12 +562,7 @@ function App() {
           )}
         </div>
 
-        {/* Filters */}
-        {showFilters && (
-          <div className="mb-8 animate-slide-up">
-            <FilterPanel filters={filters} onFiltersChange={setFilters} />
-          </div>
-        )}
+
 
         {/* Loading State */}
         {loading && (
@@ -632,12 +626,6 @@ function App() {
                 )}
               </div>
               <div className="flex items-center space-x-4">
-                <button
-                  onClick={() => setShowFilters(!showFilters)}
-                  className="text-sm px-3 py-1 bg-recipe-orange/10 hover:bg-recipe-orange/20 text-recipe-orange rounded-lg transition-colors focus:outline-none focus:ring-2 focus:ring-recipe-orange/30"
-                >
-                  {showFilters ? 'Hide Filters' : 'Show Filters'}
-                </button>
                 <div className="text-sm text-gray-500">
                   Click any recipe to see full details
                 </div>
