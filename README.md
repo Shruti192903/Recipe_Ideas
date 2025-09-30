@@ -8,7 +8,7 @@ A modern, interactive web application that helps busy professionals discover ama
 ![Vite](https://img.shields.io/badge/Vite-5.2.0-646CFF?style=for-the-badge&logo=vite)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4.1-38B2AC?style=for-the-badge&logo=tailwind-css)
 
-# Live
+# Deployed
 Live : [Recipe Ideas](https://recipe-ideas-mocha.vercel.app/)
 
 ## ✨ Features
