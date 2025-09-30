@@ -153,7 +153,7 @@ Recipe_Ideas/
 
 ## 🍳 How to Use
 
-### For Taylor (and other busy professionals):
+### For Individual (and other busy professionals):
 
 1. **Quick Start**: Enter an ingredient you have (like "chicken" or "tomato")
 2. **Filter by Time**: Choose how much time you have to cook
@@ -240,10 +240,6 @@ This project was built as a coding challenge, but improvements are welcome!
 - Add unit tests
 - Enhance accessibility
 - Optimize for performance
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
 
 ## 🙏 Acknowledgments
 
