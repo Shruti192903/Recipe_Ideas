@@ -1,6 +1,6 @@
 # Recipe Ideas 🍳
 
-**Perfect meals for busy professionals like Taylor!**
+**Perfect platform for anyone who love to explore new recipies!**
 
 A modern, interactive web application that helps busy professionals discover amazing recipes based on ingredients they have at home. Built with React, Vite, and Tailwind CSS, powered by TheMealDB API.
 
