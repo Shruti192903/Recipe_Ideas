@@ -9,7 +9,7 @@ A modern, interactive web application that helps busy professionals discover ama
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4.1-38B2AC?style=for-the-badge&logo=tailwind-css)
 
 # Live
-Live : ![Recipe Ideas](https://recipe-ideas-mocha.vercel.app/)
+Live : [Recipe Ideas](https://recipe-ideas-mocha.vercel.app/)
 
 ## ✨ Features
 
